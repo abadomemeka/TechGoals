@@ -34,7 +34,7 @@ header .right-nav p {
 }       
 
 main {
-    text-align: center;
+    /* text-align: center; */
     width: 100%;
     padding: 1em;
     margin: 1em 0;
@@ -44,17 +44,27 @@ main {
     color: black;
 }
 
+.img {
+    text-align: center;
+}
+
 main .container .title {
     /* text-align: center; */
     margin-bottom: 20px;
 } 
 
+.techgoals{
+    margin-top: 10px;
+}
+
 .goals-message{
     margin-bottom: 20px;
+    font-size: 20px;
 }
 
 footer {
-    position: absolute;
+    margin-top: 20px;
+    position: fixed;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -69,6 +79,10 @@ footer {
 
     main{
         flex-direction: column;
+    }
+
+    footer{
+        position: relative;
     }
 }
 
@@ -85,9 +99,7 @@ footer {
         flex-direction: column;
     }
 
-    footer{
-        position: relative;
-    }
+    
 
 }
 
